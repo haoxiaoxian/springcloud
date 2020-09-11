@@ -1,0 +1,27 @@
+{
+  "name" : "Payment",
+  "originTableName" : "payment",
+  "comment" : null,
+  "fullColumn" : [ {
+    "name" : "id",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "Int",
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "serial",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "ktShortType" : "String",
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.atguigu.springcloud",
+  "savePath" : "./cloud-provider-payment8001/src/main/java/com/atguigu/springcloud",
+  "saveModelName" : "cloud-provider-payment8001"
+}

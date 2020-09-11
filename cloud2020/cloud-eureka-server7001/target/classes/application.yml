@@ -1,0 +1,19 @@
+server:
+  port: 7001
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
+    driver-class-name: com.mysql.cj.jdbc.Driver            # mysql驱动包
+    url: jdbc:mysql://localhost:3306/mp?serverTimezone=UTC
+    username: root
+    password: root
+
+eureka:
+  instance:
+    hostname: eureka7001.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eureka7002.com:7002/eureka,http://eureka7001.com:7001/eureka
